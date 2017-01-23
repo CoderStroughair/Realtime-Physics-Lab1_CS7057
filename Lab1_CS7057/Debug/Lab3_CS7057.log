@@ -1,0 +1,70 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Lab2_CS7055.vcxproj, Lab3_CS7055.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  text.cpp
+b:\lab1_cs7057\lab3_cs7057\text.cpp(78): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\text.cpp(272): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\text.cpp(273): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\text.cpp(302): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\text.cpp(304): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\text.cpp(305): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\text.cpp(306): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\text.cpp(308): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\text.cpp(309): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\text.cpp(310): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\text.cpp(311): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\text.cpp(313): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  main_mine.cpp
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(399): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(450): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(454): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(649): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(651): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(652): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(653): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(654): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(661): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(663): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(664): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(665): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(666): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(673): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(675): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(676): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(677): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(678): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(721): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(722): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(738): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(739): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(740): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(741): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(746): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(786): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(812): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(822): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(823): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(824): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\teapot.h(2980): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+b:\lab1_cs7057\lab3_cs7057\teapot.h(2980): warning C4305: 'initializing': truncation from 'double' to 'float'
+b:\lab1_cs7057\lab3_cs7057\teapot.h(5959): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+b:\lab1_cs7057\lab3_cs7057\teapot.h(5959): warning C4305: 'initializing': truncation from 'double' to 'float'
+b:\lab1_cs7057\lab3_cs7057\teapot.h(8938): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+b:\lab1_cs7057\lab3_cs7057\teapot.h(8938): warning C4305: 'initializing': truncation from 'double' to 'float'
+b:\lab1_cs7057\lab3_cs7057\utilities.h(245): warning C4018: '<': signed/unsigned mismatch
+b:\lab1_cs7057\lab3_cs7057\main_mine.cpp(144): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+b:\lab1_cs7057\lab3_cs7057\main_mine.cpp(145): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+b:\lab1_cs7057\lab3_cs7057\main_mine.cpp(146): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+b:\lab1_cs7057\lab3_cs7057\main_mine.cpp(147): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+b:\lab1_cs7057\lab3_cs7057\main_mine.cpp(165): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\main_mine.cpp(208): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\main_mine.cpp(247): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\main_mine.cpp(260): warning C4244: 'argument': conversion from 'const float' to 'GLsizei', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\main_mine.cpp(310): warning C4244: 'argument': conversion from 'const float' to 'GLsizei', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\main_mine.cpp(502): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\main_mine.cpp(508): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\main_mine.cpp(530): warning C4305: 'argument': truncation from 'double' to 'float'
+b:\lab1_cs7057\lab3_cs7057\main_mine.cpp(533): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\main_mine.cpp(603): warning C4305: 'argument': truncation from 'double' to 'float'
+b:\lab1_cs7057\lab3_cs7057\main_mine.cpp(620): warning C4244: 'argument': conversion from 'const float' to 'GLsizei', possible loss of data
+  Generating Code...
+  Lab3_CS7057.vcxproj -> B:\Lab1_CS7057\Debug\Lab1_CS7057.exe
+  Lab3_CS7057.vcxproj -> B:\Lab1_CS7057\Debug\Lab1_CS7057.pdb (Full PDB)

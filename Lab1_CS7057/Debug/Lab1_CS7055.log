@@ -1,0 +1,55 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Lab2_CS7055.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  text.cpp
+d:\lab3_cs7055\lab3_cs7055\lab1_cs7055\text.cpp(78): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\lab3_cs7055\lab3_cs7055\lab1_cs7055\text.cpp(272): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\lab3_cs7055\lab3_cs7055\lab1_cs7055\text.cpp(273): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\lab3_cs7055\lab3_cs7055\lab1_cs7055\text.cpp(302): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\lab3_cs7055\lab3_cs7055\lab1_cs7055\text.cpp(304): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\lab3_cs7055\lab3_cs7055\lab1_cs7055\text.cpp(305): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\lab3_cs7055\lab3_cs7055\lab1_cs7055\text.cpp(306): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\lab3_cs7055\lab3_cs7055\lab1_cs7055\text.cpp(308): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\lab3_cs7055\lab3_cs7055\lab1_cs7055\text.cpp(309): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\lab3_cs7055\lab3_cs7055\lab1_cs7055\text.cpp(310): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\lab3_cs7055\lab3_cs7055\lab1_cs7055\text.cpp(311): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\lab3_cs7055\lab3_cs7055\lab1_cs7055\text.cpp(313): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  main_mine.cpp
+d:\lab3_cs7055\lab3_cs7055\lab1_cs7055\antons_maths_funcs.h(398): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+d:\lab3_cs7055\lab3_cs7055\lab1_cs7055\antons_maths_funcs.h(441): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+d:\lab3_cs7055\lab3_cs7055\lab1_cs7055\antons_maths_funcs.h(445): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\lab3_cs7055\lab3_cs7055\lab1_cs7055\antons_maths_funcs.h(640): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\lab3_cs7055\lab3_cs7055\lab1_cs7055\antons_maths_funcs.h(642): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\lab3_cs7055\lab3_cs7055\lab1_cs7055\antons_maths_funcs.h(643): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\lab3_cs7055\lab3_cs7055\lab1_cs7055\antons_maths_funcs.h(644): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\lab3_cs7055\lab3_cs7055\lab1_cs7055\antons_maths_funcs.h(645): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\lab3_cs7055\lab3_cs7055\lab1_cs7055\antons_maths_funcs.h(652): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\lab3_cs7055\lab3_cs7055\lab1_cs7055\antons_maths_funcs.h(654): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\lab3_cs7055\lab3_cs7055\lab1_cs7055\antons_maths_funcs.h(655): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\lab3_cs7055\lab3_cs7055\lab1_cs7055\antons_maths_funcs.h(656): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\lab3_cs7055\lab3_cs7055\lab1_cs7055\antons_maths_funcs.h(657): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\lab3_cs7055\lab3_cs7055\lab1_cs7055\antons_maths_funcs.h(664): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\lab3_cs7055\lab3_cs7055\lab1_cs7055\antons_maths_funcs.h(666): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\lab3_cs7055\lab3_cs7055\lab1_cs7055\antons_maths_funcs.h(667): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\lab3_cs7055\lab3_cs7055\lab1_cs7055\antons_maths_funcs.h(668): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\lab3_cs7055\lab3_cs7055\lab1_cs7055\antons_maths_funcs.h(669): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\lab3_cs7055\lab3_cs7055\lab1_cs7055\antons_maths_funcs.h(712): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\lab3_cs7055\lab3_cs7055\lab1_cs7055\antons_maths_funcs.h(713): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\lab3_cs7055\lab3_cs7055\lab1_cs7055\antons_maths_funcs.h(729): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\lab3_cs7055\lab3_cs7055\lab1_cs7055\antons_maths_funcs.h(730): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\lab3_cs7055\lab3_cs7055\lab1_cs7055\antons_maths_funcs.h(731): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\lab3_cs7055\lab3_cs7055\lab1_cs7055\antons_maths_funcs.h(732): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\lab3_cs7055\lab3_cs7055\lab1_cs7055\antons_maths_funcs.h(737): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\lab3_cs7055\lab3_cs7055\lab1_cs7055\antons_maths_funcs.h(777): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\lab3_cs7055\lab3_cs7055\lab1_cs7055\antons_maths_funcs.h(803): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\lab3_cs7055\lab3_cs7055\lab1_cs7055\antons_maths_funcs.h(813): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\lab3_cs7055\lab3_cs7055\lab1_cs7055\antons_maths_funcs.h(814): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\lab3_cs7055\lab3_cs7055\lab1_cs7055\antons_maths_funcs.h(815): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\lab3_cs7055\lab3_cs7055\lab1_cs7055\teapot.h(2980): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+d:\lab3_cs7055\lab3_cs7055\lab1_cs7055\teapot.h(2980): warning C4305: 'initializing': truncation from 'double' to 'float'
+d:\lab3_cs7055\lab3_cs7055\lab1_cs7055\teapot.h(5959): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+d:\lab3_cs7055\lab3_cs7055\lab1_cs7055\teapot.h(5959): warning C4305: 'initializing': truncation from 'double' to 'float'
+d:\lab3_cs7055\lab3_cs7055\lab1_cs7055\teapot.h(8938): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+d:\lab3_cs7055\lab3_cs7055\lab1_cs7055\teapot.h(8938): warning C4305: 'initializing': truncation from 'double' to 'float'
+d:\lab3_cs7055\lab3_cs7055\lab1_cs7055\utilities.h(156): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  Lab1_CS7055.vcxproj -> D:\Lab3_CS7055\Lab3_CS7055\Debug\Lab3_CS7055.exe
+  Lab1_CS7055.vcxproj -> D:\Lab3_CS7055\Lab3_CS7055\Debug\Lab3_CS7055.pdb (Full PDB)

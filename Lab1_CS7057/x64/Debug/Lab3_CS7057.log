@@ -1,0 +1,145 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Lab1_CS7055.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  text.cpp
+b:\lab1_cs7057\lab3_cs7057\text.cpp(78): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\text.cpp(251): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\text.cpp(272): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\text.cpp(273): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\text.cpp(302): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\text.cpp(304): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\text.cpp(305): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\text.cpp(306): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\text.cpp(308): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\text.cpp(309): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\text.cpp(310): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\text.cpp(311): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\text.cpp(313): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  main_mine.cpp
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(399): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(450): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(454): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(649): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(651): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(652): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(653): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(654): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(661): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(663): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(664): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(665): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(666): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(673): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(675): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(676): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(677): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(678): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(721): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(722): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(738): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(739): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(740): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(741): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(746): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(786): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(812): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(822): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(823): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\antons_maths_funcs.h(824): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\teapot.h(2980): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+b:\lab1_cs7057\lab3_cs7057\teapot.h(2980): warning C4305: 'initializing': truncation from 'double' to 'float'
+b:\lab1_cs7057\lab3_cs7057\teapot.h(5959): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+b:\lab1_cs7057\lab3_cs7057\teapot.h(5959): warning C4305: 'initializing': truncation from 'double' to 'float'
+b:\lab1_cs7057\lab3_cs7057\teapot.h(8938): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+b:\lab1_cs7057\lab3_cs7057\teapot.h(8938): warning C4305: 'initializing': truncation from 'double' to 'float'
+b:\lab1_cs7057\lab3_cs7057\utilities.h(245): warning C4018: '<': signed/unsigned mismatch
+b:\lab1_cs7057\lab3_cs7057\main_mine.cpp(144): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+b:\lab1_cs7057\lab3_cs7057\main_mine.cpp(145): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+b:\lab1_cs7057\lab3_cs7057\main_mine.cpp(146): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+b:\lab1_cs7057\lab3_cs7057\main_mine.cpp(147): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+b:\lab1_cs7057\lab3_cs7057\main_mine.cpp(165): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\main_mine.cpp(208): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\main_mine.cpp(247): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\main_mine.cpp(260): warning C4244: 'argument': conversion from 'const float' to 'GLsizei', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\main_mine.cpp(310): warning C4244: 'argument': conversion from 'const float' to 'GLsizei', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\main_mine.cpp(502): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\main_mine.cpp(508): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\main_mine.cpp(530): warning C4305: 'argument': truncation from 'double' to 'float'
+b:\lab1_cs7057\lab3_cs7057\main_mine.cpp(533): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+b:\lab1_cs7057\lab3_cs7057\main_mine.cpp(603): warning C4305: 'argument': truncation from 'double' to 'float'
+b:\lab1_cs7057\lab3_cs7057\main_mine.cpp(620): warning C4244: 'argument': conversion from 'const float' to 'GLsizei', possible loss of data
+  Generating Code...
+main_mine.obj : error LNK2019: unresolved external symbol __imp_glewInit referenced in function main
+main_mine.obj : error LNK2019: unresolved external symbol __imp_glewGetErrorString referenced in function main
+main_mine.obj : error LNK2019: unresolved external symbol __imp_glutInitWindowSize referenced in function main
+main_mine.obj : error LNK2019: unresolved external symbol __imp_glutInitDisplayMode referenced in function main
+main_mine.obj : error LNK2019: unresolved external symbol __imp_glutMainLoop referenced in function main
+main_mine.obj : error LNK2019: unresolved external symbol __imp_glutPostRedisplay referenced in function "void __cdecl updateScene(void)" (?updateScene@@YAXXZ)
+main_mine.obj : error LNK2019: unresolved external symbol __imp_glutSwapBuffers referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+main_mine.obj : error LNK2019: unresolved external symbol __imp_glutWarpPointer referenced in function main
+main_mine.obj : error LNK2019: unresolved external symbol __imp_glutSetCursor referenced in function main
+main_mine.obj : error LNK2019: unresolved external symbol __imp_glutIdleFunc referenced in function main
+main_mine.obj : error LNK2019: unresolved external symbol __imp_glutKeyboardFunc referenced in function main
+main_mine.obj : error LNK2019: unresolved external symbol __imp_glutSpecialFunc referenced in function main
+main_mine.obj : error LNK2019: unresolved external symbol __imp_glutDisplayFunc referenced in function main
+main_mine.obj : error LNK2019: unresolved external symbol __imp_glutPassiveMotionFunc referenced in function main
+main_mine.obj : error LNK2019: unresolved external symbol __imp_glutKeyboardUpFunc referenced in function main
+main_mine.obj : error LNK2019: unresolved external symbol __imp_glutSpecialUpFunc referenced in function main
+main_mine.obj : error LNK2019: unresolved external symbol __imp___glutInitWithExit referenced in function glutInit_ATEXIT_HACK
+main_mine.obj : error LNK2019: unresolved external symbol __imp___glutCreateWindowWithExit referenced in function glutCreateWindow_ATEXIT_HACK
+main_mine.obj : error LNK2019: unresolved external symbol aiImportFile referenced in function "public: bool __cdecl Mesh::load_mesh(char const *)" (?load_mesh@Mesh@@QEAA_NPEBD@Z)
+main_mine.obj : error LNK2019: unresolved external symbol aiReleaseImport referenced in function "public: bool __cdecl Mesh::load_mesh(char const *)" (?load_mesh@Mesh@@QEAA_NPEBD@Z)
+main_mine.obj : error LNK2001: unresolved external symbol __imp___glewActiveTexture
+text.obj : error LNK2001: unresolved external symbol __imp___glewActiveTexture
+main_mine.obj : error LNK2001: unresolved external symbol __imp___glewBindBuffer
+text.obj : error LNK2001: unresolved external symbol __imp___glewBindBuffer
+main_mine.obj : error LNK2001: unresolved external symbol __imp___glewBufferData
+text.obj : error LNK2001: unresolved external symbol __imp___glewBufferData
+main_mine.obj : error LNK2001: unresolved external symbol __imp___glewGenBuffers
+text.obj : error LNK2001: unresolved external symbol __imp___glewGenBuffers
+main_mine.obj : error LNK2001: unresolved external symbol __imp___glewAttachShader
+text.obj : error LNK2001: unresolved external symbol __imp___glewAttachShader
+main_mine.obj : error LNK2001: unresolved external symbol __imp___glewCompileShader
+text.obj : error LNK2001: unresolved external symbol __imp___glewCompileShader
+main_mine.obj : error LNK2001: unresolved external symbol __imp___glewCreateProgram
+text.obj : error LNK2001: unresolved external symbol __imp___glewCreateProgram
+main_mine.obj : error LNK2001: unresolved external symbol __imp___glewCreateShader
+text.obj : error LNK2001: unresolved external symbol __imp___glewCreateShader
+main_mine.obj : error LNK2001: unresolved external symbol __imp___glewDrawBuffers
+main_mine.obj : error LNK2001: unresolved external symbol __imp___glewEnableVertexAttribArray
+text.obj : error LNK2001: unresolved external symbol __imp___glewEnableVertexAttribArray
+main_mine.obj : error LNK2001: unresolved external symbol __imp___glewGetProgramInfoLog
+main_mine.obj : error LNK2001: unresolved external symbol __imp___glewGetProgramiv
+text.obj : error LNK2001: unresolved external symbol __imp___glewGetProgramiv
+main_mine.obj : error LNK2001: unresolved external symbol __imp___glewGetShaderInfoLog
+main_mine.obj : error LNK2001: unresolved external symbol __imp___glewGetShaderiv
+text.obj : error LNK2001: unresolved external symbol __imp___glewGetShaderiv
+main_mine.obj : error LNK2001: unresolved external symbol __imp___glewGetUniformLocation
+text.obj : error LNK2001: unresolved external symbol __imp___glewGetUniformLocation
+main_mine.obj : error LNK2001: unresolved external symbol __imp___glewLinkProgram
+text.obj : error LNK2001: unresolved external symbol __imp___glewLinkProgram
+main_mine.obj : error LNK2001: unresolved external symbol __imp___glewShaderSource
+text.obj : error LNK2001: unresolved external symbol __imp___glewShaderSource
+main_mine.obj : error LNK2001: unresolved external symbol __imp___glewUniform1f
+main_mine.obj : error LNK2001: unresolved external symbol __imp___glewUniform1i
+main_mine.obj : error LNK2001: unresolved external symbol __imp___glewUniform3fv
+main_mine.obj : error LNK2001: unresolved external symbol __imp___glewUniform4fv
+main_mine.obj : error LNK2001: unresolved external symbol __imp___glewUniformMatrix4fv
+main_mine.obj : error LNK2001: unresolved external symbol __imp___glewUseProgram
+text.obj : error LNK2001: unresolved external symbol __imp___glewUseProgram
+main_mine.obj : error LNK2001: unresolved external symbol __imp___glewValidateProgram
+main_mine.obj : error LNK2001: unresolved external symbol __imp___glewVertexAttribPointer
+text.obj : error LNK2001: unresolved external symbol __imp___glewVertexAttribPointer
+main_mine.obj : error LNK2001: unresolved external symbol __imp___glewUniform1ui
+main_mine.obj : error LNK2001: unresolved external symbol __imp___glewBindFramebuffer
+main_mine.obj : error LNK2001: unresolved external symbol __imp___glewCheckFramebufferStatus
+main_mine.obj : error LNK2001: unresolved external symbol __imp___glewFramebufferTexture2D
+main_mine.obj : error LNK2001: unresolved external symbol __imp___glewGenFramebuffers
+main_mine.obj : error LNK2001: unresolved external symbol __imp___glewGenerateMipmap
+main_mine.obj : error LNK2001: unresolved external symbol __imp___glewBindVertexArray
+text.obj : error LNK2001: unresolved external symbol __imp___glewBindVertexArray
+main_mine.obj : error LNK2001: unresolved external symbol __imp___glewGenVertexArrays
+text.obj : error LNK2001: unresolved external symbol __imp___glewGenVertexArrays
+text.obj : error LNK2001: unresolved external symbol __imp___glewBindAttribLocation
+text.obj : error LNK2001: unresolved external symbol __imp___glewUniform2f
+text.obj : error LNK2001: unresolved external symbol __imp___glewUniform4f
+freeglut.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+B:\Lab1_CS7057\x64\Debug\Lab1_CS7057.exe : fatal error LNK1120: 56 unresolved externals

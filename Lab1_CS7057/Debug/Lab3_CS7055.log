@@ -1,0 +1,6 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Lab2_CS7055.vcxproj, Lab3_CS7055.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Skipping... (no relevant changes detected)
+  text.cpp
+  main_mine.cpp
+  Lab3_CS7055.vcxproj -> B:\Lab3_CS7055 - Copy\Debug\Lab1_CS7057.exe
+  Lab3_CS7055.vcxproj -> B:\Lab3_CS7055 - Copy\Debug\Lab1_CS7057.pdb (Full PDB)

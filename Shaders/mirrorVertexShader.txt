@@ -1,0 +1,23 @@
+#version 420
+
+layout(location = 0) in vec3 vertex_position;
+layout(location = 1) in vec3 vertex_normal;
+layout(location = 2) in vec2 vertex_texture;
+
+uniform mat4 view, proj, model;
+
+uniform vec3 light;
+
+out vec3 position_eye, normal_eye, light_position_eye;
+out vec2 texture_coordinates;
+void main()
+{
+  texture_coordinates = vertex_texture;
+  position_eye = vec3(view*model*vec4(vertex_position, 1.0));
+  normal_eye = mat3(transpose(inverse(view*model))) * vertex_normal;  
+  light_position_eye = vertex_position - light;
+  gl_Position = proj* vec4(position_eye, 1.0);
+}
+
+
+  

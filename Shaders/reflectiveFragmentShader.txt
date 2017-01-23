@@ -1,0 +1,92 @@
+#version 430
+
+in vec3 position_eye;
+in vec3 normal_eye;
+in vec3 camPos;
+
+uniform mat4 view;
+uniform bool simple;
+layout (location = 0) uniform samplerCube cube_texture;
+layout (location = 1) uniform samplerCube cube_textureX;
+layout (location = 2) uniform samplerCube cube_textureY;
+layout (location = 3) uniform samplerCube cube_textureZ;
+
+out vec4 fragment_colour;
+int maximum(vec3 v);
+void main()
+{    
+	/* reflect ray around normal from eye to surface */
+	vec3 incident_eye = normalize (position_eye);
+	vec3 normal = normalize (normal_eye);
+
+	vec3 reflected = reflect (incident_eye, normal);
+	// convert from eye to world space
+	reflected = vec3 (inverse (view) * vec4 (reflected, 0.0));
+
+	//##################################################################
+	// Funky cubemap stuff below
+	//##################################################################
+	vec3 position = normal_eye;
+
+	vec3 distanceVector = position - camPos;
+	float dotyz = dot(position.yz, distanceVector.yz);
+	dotyz = abs(dotyz * (1/(length(position.yz)*length(distanceVector.yz))));
+	float dotxz = dot(position.xz, distanceVector.xz);
+	dotxz = abs(dotxz * (1/(length(position.xz)*length(distanceVector.xz))));
+	float dotxy = dot(position.xy, distanceVector.xy);
+	dotxy = abs(dotxy * (1/(length(position.xy)*length(distanceVector.xy))));
+	vec3 cosineValues = vec3(dotyz, dotxz, dotxy);
+	//vec3 cosineValues = vec3(abs(dot(normal_eye.yz, distanceVector.yz)), abs(dot(normal_eye.xz, distanceVector.xz)), abs(dot(normal_eye.xy, distanceVector.xy)));
+	
+	mat3 rotationX = mat3(1.0,	0.0,			0.0,				
+						  0.0,	cos(0.785),	   -sin(0.785),
+						  0.0,	sin(0.785),		cos(0.785));
+	vec3 resultsX = rotationX*reflected;
+
+	mat3 rotationY = mat3(cos(0.785),	0.0,	sin(0.785),	
+						  0.0,			1.0,	0.0,				
+						  -sin(0.785),	0.0,	cos(0.785));
+
+	vec3 resultsY = rotationY*reflected;
+
+	mat3 rotationZ = mat3(cos(0.785), -sin(0.785),	0.0,
+						  sin(0.785),  cos(0.785),	0.0,
+						  0.0,		   0.0,		    1.0);
+
+	vec3 resultsZ = rotationZ*reflected;
+
+
+	int direction = maximum(cosineValues);
+	if (direction == 3)
+		fragment_colour = texture(cube_textureZ, resultsZ);
+		//fragment_colour = vec4(1.0, 1.0, 0.0, 0.0);
+	else if (direction == 1)
+		fragment_colour = texture(cube_textureX, reflected);
+		//fragment_colour = vec4(1.0, 0.0, 0.0, 0.0);
+	else if (direction == 2)
+		fragment_colour = texture(cube_textureY, resultsY);
+		//fragment_colour = vec4(0.0, 0.0, 1.0, 0.0);
+	else
+		fragment_colour = texture(cube_texture, reflected);
+		//fragment_colour = vec4(0.0, 1.0, 0.0, 0.0);
+
+	if (simple)
+	{
+		fragment_colour = texture(cube_texture, reflected);
+		//if (direction == 2)
+		//	fragment_colour = texture(cube_textureY, resultsY);
+	}
+}
+
+int maximum(in vec3 v)
+{ 
+
+	float result = max(v.x, v.y);
+	if (min(max(result, v.z), 0.5) == result)
+		return 0;
+	if (max(v.z, result) == v.z)
+		return 3;
+	if (max(v.x, v.y) == v.x)
+		return 1;
+	return 2;
+}

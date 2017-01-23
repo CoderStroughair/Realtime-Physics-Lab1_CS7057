@@ -1,0 +1,64 @@
+#version 410
+
+in vec3 position_eye;
+in vec3 normal_eye;
+in vec3 light_position_eye; 
+in vec3 camPos;
+
+//************//
+//OBJECT COLOR//
+//************//
+vec3 Ks = vec3(1.0f, 1.0f, 1.0f); // specular reflectance
+vec3 Kd = vec3(238.0f/255.0f, 202.0f/255.0f, 109f/255.0f); // diffuse reflectance
+vec3 Ka = vec3(1.0f, 1.0f, 1.0f); // ambient reflectance
+float specular_exponent = 100.0f; //specular 'power'?
+
+//***********//
+//LIGHT COLOR//
+//***********//
+uniform vec3 Ls; //white specular color
+uniform vec3 Ld; // dull white diffuse light 
+uniform vec3 La;  // grey ambient color
+
+uniform mat4 view, proj;
+uniform samplerCube cube_texture;
+
+const float rETA = 0.73f;
+const float bETA = 0.65f;
+const float gETA = 0.60f;
+
+const float Fr = pow((1.0 - rETA), 2) / pow((1.0 + rETA), 2); // Rf(0) for the red channel
+const float Fg = pow((1.0 - gETA), 2) / pow((1.0 + gETA), 2); // Rf(0) for the green channel
+const float Fb = pow((1.0 - bETA), 2) / pow((1.0 + bETA), 2); // Rf(0) for the blue channel
+
+out vec4 fragment_color;
+
+void main()
+{    
+	/* reflect ray around normal from eye to surface */
+	vec3 incident_eye = normalize (position_eye);
+	vec3 normal = normalize (normal_eye);
+
+
+	vec3 reflected = reflect (incident_eye, normal);
+	// convert from eye to world space
+	reflected = vec3 (inverse (view) * vec4 (reflected, 0.0));
+
+	float ratioR = Fr + ((1.0 + Fr) * pow((1.0 - dot(-incident_eye,normal)), 5));
+	float ratioG = Fg + ((1.0 + Fg) * pow((1.0 - dot(-incident_eye,normal)), 5));
+	float ratioB = Fb + ((1.0 + Fb) * pow((1.0 - dot(-incident_eye,normal)), 5));
+
+	vec3 refractR = refract(incident_eye, normal, ratioR);
+	vec3 refractG = refract(incident_eye, normal, ratioG);
+	vec3 refractB = refract(incident_eye, normal, ratioB);
+
+	refractR = vec3(inverse (view) * vec4 (refractR, 1.0));
+	refractG = vec3(inverse (view) * vec4 (refractG, 1.0));
+	refractB = vec3(inverse (view) * vec4 (refractB, 1.0));
+
+	fragment_color.r = mix(texture(cube_texture, reflected).r, texture(cube_texture, refractR).r, 1-ratioR);
+	fragment_color.g = mix(texture(cube_texture, reflected).g, texture(cube_texture, refractG).g, 1-ratioG);
+	fragment_color.b = mix(texture(cube_texture, reflected).b, texture(cube_texture, refractB).b, 1-ratioB);
+
+
+}

@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Antons_maths_funcs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="teapot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="text.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Colours.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main_mine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="text.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Shaders\noTextureFragmentShader.txt" />
+    <Text Include="..\Shaders\noTextureVertexShader.txt" />
+    <Text Include="..\Shaders\textureFragmentShader.txt" />
+    <Text Include="..\Shaders\textureVertexShader.txt" />
+    <Text Include="..\Shaders\bearFragmentShader.txt" />
+    <Text Include="..\Shaders\blackBearFragmentShader.txt" />
+    <Text Include="..\Shaders\variableFragmentShader.txt" />
+    <Text Include="..\Shaders\reflectiveFragmentShader.txt" />
+    <Text Include="..\Shaders\skyboxFragmentShader.txt" />
+    <Text Include="..\Shaders\skyboxVertexShader.txt" />
+    <Text Include="..\Shaders\fresnelFragmentShader.txt" />
+    <Text Include="..\Shaders\testFragment.txt" />
+    <Text Include="..\Shaders\testVertex.txt" />
+    <Text Include="..\Shaders\normalisedFragmentShader.txt" />
+    <Text Include="..\Shaders\normalisedVertexShader.txt" />
+    <Text Include="..\Shaders\multiTextureFragmentShader.txt" />
+    <Text Include="..\Shaders\multiTextureVertexShader.txt" />
+    <Text Include="..\Shaders\mirrorFragmentShader.txt" />
+    <Text Include="..\Shaders\mirrorVertexShader.txt" />
+    <Text Include="..\Shaders\debugSkyboxFragment.txt" />
+    <Text Include="..\Shaders\debugSkyboxVertex.txt" />
+  </ItemGroup>
+</Project>

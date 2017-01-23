@@ -1,0 +1,11 @@
+﻿Build started 10/13/2016 4:44:53 PM.
+     1>Project "C:\Users\IrishMTS\OneDrive - TCDUD.onmicrosoft.com\College Notes\College Year 5\CS7055 - Realtime Rendering\Lab1_CS7055\Lab1_CS7055\Lab1_CS7055.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\IrishMTS\OneDrive - TCDUD.onmicrosoft.com\College Notes\College Year 5\CS7055 - Realtime Rendering\Lab1_CS7055\x64\Debug\Lab1_CS7055.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\IrishMTS\OneDrive - TCDUD.onmicrosoft.com\College Notes\College Year 5\CS7055 - Realtime Rendering\Lab1_CS7055\x64\Debug\Lab1_CS7055.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\IrishMTS\OneDrive - TCDUD.onmicrosoft.com\College Notes\College Year 5\CS7055 - Realtime Rendering\Lab1_CS7055\x64\Debug\Lab1_CS7055.lib" /MACHINE:X64 x64\Debug\main_mine.obj
+         x64\Debug\text.obj
+     1>LINK : fatal error LNK1104: cannot open file 'freeglut.lib'
+     1>Done Building Project "C:\Users\IrishMTS\OneDrive - TCDUD.onmicrosoft.com\College Notes\College Year 5\CS7055 - Realtime Rendering\Lab1_CS7055\Lab1_CS7055\Lab1_CS7055.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.23
