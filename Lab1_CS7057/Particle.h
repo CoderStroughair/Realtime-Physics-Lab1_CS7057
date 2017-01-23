@@ -56,6 +56,11 @@ public:
 		position = initialPosition;
 		velocity = force;
 		health = rand()%50+50;
+		scale = rand() % 10 / 10.0f;
+		/**nt cn = rand() % 10;
+		if (cn == 0)
+			colour = GOLD;
+		else if(cn)**/
 	}
 };
 
@@ -67,7 +72,7 @@ public:
 class Drag : public Force {
 public:
 	void applyForce(Particle& p) {
-		GLfloat constants = 0.5 * 1.225 * 0.47 * 3.14 * 0.1 * 0.1;
+		GLfloat constants = 0.5 * 1.225 * 0.47 * 3.14 * (0.1*p.scale) * (0.1*p.scale);
 		vec3 velocity = vec3(p.velocity.v[0] * p.velocity.v[0], p.velocity.v[1] * p.velocity.v[1], p.velocity.v[2] * p.velocity.v[2]);
 		p.addForce(velocity*constants);
 			//force -= velocity*constants;
@@ -127,15 +132,14 @@ public:
 
 	void checkCollisions(vec3 point, vec3 normal, float delta)
 	{
+		float coRest = 0.3;
 		for (int i = 0; i < numParticles; i++)
 		{
 			if (dot((particles[i].position - point), normal) < 0.00001f && dot(particles[i].velocity, normal) < 0.00001f)
 			{
-				vec3 deltaX = vec3(0.0, 0.0, 0.0) - normal * dot((particles[i].position - point), normal);
-				particles[i].position += deltaX;
-				//particles[i].force = vec3(0.0, 0.0, 0.0) - normal * dot(particles[i].force, normal);
-				particles[i].velocity = particles[i].velocity - vec3(particles[i].velocity.v[0] * normal.v[0], particles[i].velocity.v[1] * normal.v[1], particles[i].velocity.v[2] * normal.v[2]);
-				//particles[i].position += particles[i].velocity*delta;
+				vec3 deltaX = particles[i].position - normal * 1.4 * dot((particles[i].position - point), normal);
+				particles[i].position = deltaX;
+				particles[i].velocity = particles[i].velocity - (normal*dot(particles[i].velocity, normal))*(1+coRest);//vec3(particles[i].velocity.v[0] * normal.v[0], particles[i].velocity.v[1] * normal.v[1], particles[i].velocity.v[2] * normal.v[2]);
 			}
 		}
 	}

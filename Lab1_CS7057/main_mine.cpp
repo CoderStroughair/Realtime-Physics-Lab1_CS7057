@@ -226,7 +226,11 @@ void updateScene() {
 		cam.movRight(sideCam*speed);
 		cam.changeFront(pitCam, yawCam, rolCam);
 		ps.applyForces(delta);
-		ps.checkCollisions(vec3(0.0, -5.0f, 0.0), vec3(0.0, 1.0, 0.0), delta);
+		ps.checkCollisions(vec3(0.0, -6.5, 0.0), vec3(0.0, 0.5, -0.5), delta);
+		ps.checkCollisions(vec3(0.0, -6.5, 0.0), vec3(0.0, 0.5, 0.5), delta);
+		ps.checkCollisions(vec3(0.0, -6.5, 0.0), vec3(0.5, 0.5, 0.0), delta);
+		ps.checkCollisions(vec3(0.0, -6.5, 0.0), vec3(-0.5, 0.5, 0.0), delta);
+		ps.checkCollisions(vec3(0.0, +2.5, 0.0), vec3(0.0, 1.0, 0.0), delta);
 	}
 	
 }
