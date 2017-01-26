@@ -21,7 +21,6 @@
   <ItemGroup>
     <ClInclude Include="Antons_maths_funcs.h" />
     <ClInclude Include="Colours.h" />
-    <ClInclude Include="Particle.h" />
     <ClInclude Include="stb_image.h" />
     <ClInclude Include="teapot.h" />
     <ClInclude Include="text.h" />

@@ -437,12 +437,16 @@ void drawloop(mat4 view, mat4 proj, GLuint framebuffer)
 		model = translate(model, location);
 		//drawObject(normalisedShaderID, view, proj, model, light, Ls, gemColour[i], Ld, vec3(0.8, 0.8, 0.8), vec3(0.1, 0.1, 0.1), gemColour[i], specular_exponent, cam, gem_object, NULL, coneDirection, GL_TRIANGLES);
 	}
-	print(ps.particles[5].position);
 	for (int i = 0; i < ps.numParticles; i++)
 	{
+		ps.particles[i].evolve();
 		model = identity_mat4();
 		model = scale(model, vec3(ps.particles[i].scale, ps.particles[i].scale, ps.particles[i].scale));
 		model = translate(model, ps.particles[i].position);
 		drawObject(normalisedShaderID, view, proj, model, light, Ls, ps.particles[i].colour, Ld, vec3(0.8, 0.8, 0.8), vec3(0.1, 0.1, 0.1), ps.particles[i].colour, specular_exponent, cam, ps.particles[i].mesh, NULL, coneDirection, GL_TRIANGLES);
 	}
+	model = scale(identity_mat4(), vec3(2.0, 2.0, 2.0));
+	model = rotate_z_deg(model, 132);
+	model = translate(model, vec3(0.0, 21.0, 0.0));
+	drawObject(normalisedShaderID, view, proj, model, light, Ls, ps.particles[0].colour, Ld, vec3(0.8, 0.8, 0.8), vec3(0.1, 0.1, 0.1), ps.particles[0].colour, specular_exponent, cam, ps.particles[0].mesh, NULL, coneDirection, GL_TRIANGLES);
 }

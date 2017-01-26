@@ -37,11 +37,12 @@ u:\lab1_cs7057\lab1_cs7057\teapot.h(5959): warning C4305: 'initializing': trunca
 u:\lab1_cs7057\lab1_cs7057\teapot.h(8938): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
 u:\lab1_cs7057\lab1_cs7057\teapot.h(8938): warning C4305: 'initializing': truncation from 'double' to 'float'
 u:\lab1_cs7057\lab1_cs7057\utilities.h(246): warning C4018: '<': signed/unsigned mismatch
+u:\lab1_cs7057\lab1_cs7057\particle.h(25): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 u:\lab1_cs7057\lab1_cs7057\particle.h(29): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-u:\lab1_cs7057\lab1_cs7057\particle.h(75): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-u:\lab1_cs7057\lab1_cs7057\particle.h(109): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-u:\lab1_cs7057\lab1_cs7057\particle.h(135): warning C4305: 'initializing': truncation from 'double' to 'float'
-u:\lab1_cs7057\lab1_cs7057\particle.h(140): warning C4305: 'argument': truncation from 'double' to 'float'
+u:\lab1_cs7057\lab1_cs7057\particle.h(49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+u:\lab1_cs7057\lab1_cs7057\particle.h(78): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+u:\lab1_cs7057\lab1_cs7057\particle.h(139): warning C4305: 'initializing': truncation from 'double' to 'float'
+u:\lab1_cs7057\lab1_cs7057\particle.h(144): warning C4305: 'argument': truncation from 'double' to 'float'
 u:\lab1_cs7057\lab1_cs7057\main_mine.cpp(153): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
 u:\lab1_cs7057\lab1_cs7057\main_mine.cpp(194): warning C4244: 'argument': conversion from 'const float' to 'GLsizei', possible loss of data
 u:\lab1_cs7057\lab1_cs7057\main_mine.cpp(198): warning C4244: 'argument': conversion from 'const float' to 'GLsizei', possible loss of data
@@ -50,5 +51,6 @@ u:\lab1_cs7057\lab1_cs7057\main_mine.cpp(343): warning C4244: 'argument': conver
 u:\lab1_cs7057\lab1_cs7057\main_mine.cpp(365): warning C4305: 'argument': truncation from 'double' to 'float'
 u:\lab1_cs7057\lab1_cs7057\main_mine.cpp(368): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 u:\lab1_cs7057\lab1_cs7057\main_mine.cpp(446): warning C4305: 'argument': truncation from 'double' to 'float'
+u:\lab1_cs7057\lab1_cs7057\main_mine.cpp(451): warning C4305: 'argument': truncation from 'double' to 'float'
   Lab1_CS7057.vcxproj -> U:\Lab1_CS7057\Debug\Lab1_CS7057.exe
   Lab1_CS7057.vcxproj -> U:\Lab1_CS7057\Debug\Lab1_CS7057.pdb (Full PDB)

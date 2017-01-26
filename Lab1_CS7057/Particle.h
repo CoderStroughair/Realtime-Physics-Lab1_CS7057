@@ -22,21 +22,13 @@ public:
 		scale = rand() % 10 / 10.0f;
 		health = 100;
 		force = vec3(0.0, 0.0, 0.0);
-		velocity = vec3(0.0, 0.0, 0.0);
+		velocity = vec3(rand()%30-15, 50, rand()%30-15);
 		mesh = me;
 		position = p;
 		initialPosition = p;
 		mass = m;
 		mass /= 100.0;
-		int colourNumber = rand() % 4;
-		if (colourNumber == 0)
-			colour = RED;
-		else if (colourNumber == 1)
-			colour = PURPLE;
-		else if (colourNumber == 2)
-			colour = GREEN;
-		else
-			colour = YELLOW;
+		colour = RED;
 	}
 	void addForce(vec3 f)
 	{
@@ -54,13 +46,24 @@ public:
 	{
 		force = vec3(0.0, 0.0, 0.0);
 		position = initialPosition;
-		velocity = force;
+		velocity = vec3(rand() % 30-15, 50, rand() % 30-15);
 		health = rand()%50+50;
-		scale = rand() % 10 / 10.0f;
-		/**nt cn = rand() % 10;
-		if (cn == 0)
-			colour = GOLD;
-		else if(cn)**/
+		scale = rand() % 1000 / 1000.0f;
+		colour = RED;
+	}
+
+	void evolve()
+	{
+		if (health > 80)
+			colour = RED;
+		else if (health > 60)
+			colour = PURPLE;
+		else if (health > 40)
+			colour = GREEN;
+		else if (health > 20)
+			colour = YELLOW;
+		else
+			colour = GREY;
 	}
 };
 
@@ -106,7 +109,8 @@ public:
 		{
 			for (int j = -10; j < 10; j++)
 			{
-				Particle particle(m, vec3(rand() % 60 - 30, 20.0f, rand() % 60 - 30), rand() % 400+100);
+				//Particle particle(m, vec3(rand() % 60 - 30, 20.0f, rand() % 60 - 30), rand() % 400+100);
+				Particle particle(m, vec3(0.0f, 20.0f, 0.0f), rand() % 400 + 100);
 				if (particle.mass <= 0)
 					particle.mass = 1;
 				particles.push_back(particle);
@@ -132,7 +136,7 @@ public:
 
 	void checkCollisions(vec3 point, vec3 normal, float delta)
 	{
-		float coRest = 0.3;
+		float coRest = 0.6;
 		for (int i = 0; i < numParticles; i++)
 		{
 			if (dot((particles[i].position - point), normal) < 0.00001f && dot(particles[i].velocity, normal) < 0.00001f)
